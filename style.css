@@ -1,0 +1,142 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: rgb(160, 160, 160);
+	font-family: "Inter", sans-serif;
+	letter-spacing: -0.7px;
+}
+body {
+	background-color: rgb(14, 14, 14);
+	color: #f5f5f5;
+
+	font-family: "Prata", serif;
+	letter-spacing: 1px;
+
+	margin: 124px;
+	margin-top: 64px;
+}
+
+.bigTopHeading {
+	font-size: 48px;
+	font-weight: 100;
+	margin-bottom: 22px;
+}
+.Desc {
+	width: 52%;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 22px;
+	font-family: "Inter", sans-serif;
+	color: rgb(160, 160, 160);
+	line-height: 28px;
+}
+#touchButton {
+	font-family: "Prata", serif;
+	letter-spacing: 0px;
+	height: 44px;
+	width: 140px;
+	border-radius: 4px;
+	padding: 8px;
+	background-color: #fff34e;
+	color: #000;
+}
+.topnav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.navLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 24%;
+}
+.compLogos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 64px 0 64px;
+	width: 100%;
+}
+.workEg {
+	padding: 0;
+	margin-bottom: 64px;
+	display: flex;
+	flex-direction: row;
+}
+h3 {
+	font-size: 32px;
+	font-weight: 100;
+	margin: 28px 0px 0px;
+	line-height: 28px;
+}
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	max-width: 94%;
+	font-family: "Inter", sans-serif;
+	color: rgb(160, 160, 160);
+	margin: 0px 0px 18px;
+}
+
+.DescRow {
+	margin: 0 -124px;
+	column-count: 2;
+	background-color: #33333d;
+	padding: 62px 124px 20px;
+	overflow: hidden;
+}
+
+.DescRow > h3 {
+	font-size: 36px;
+	font-weight: 100;
+	margin: 0px 0px 12px;
+	line-height: 54px;
+}
+
+footer {
+	margin-top: 64px;
+}
+.fdesc {
+	margin-top: 18px;
+	width: 50%;
+}
+.fdesci {
+	font-family: "Prata", serif;
+	letter-spacing: 0px;
+	border-radius: 4px;
+	padding: 12px;
+	background-color: #fff34e;
+	color: #000;
+	margin: 24px 0px 38px;
+	height: 48px;
+	width: 160px;
+}
+.last {
+	margin: 0 -124px -124px;
+	background-color: #33333d;
+	height: 36px;
+	padding: 20px 124px 12px;
+}
+.linklast {
+	float: right;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+	.workEg {
+		display: flex;
+		flex-direction: column;
+	}
+	* {
+		font-size: 12px;
+	}
+	.DescRow {
+		margin: 0 -124px;
+		column-count: 1;
+	}
+}
