@@ -1,0 +1,127 @@
+:root {
+	--accent: #372865;
+	--main: #f6f9fe;
+	--grey: #87898a;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: var(--main);
+	font-family: 'Nunito', sans-serif;
+
+	margin: 140px;
+	margin-top: 80px;
+	letter-spacing: 1px;
+	color: var(--grey);
+}
+a {
+	text-decoration: none;
+	color: var(--grey);
+	font-family: 'Nunito', sans-serif;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-weight: 300;
+}
+.navlink {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 46%;
+}
+.navlink > a {
+	letter-spacing: -0.4px;
+	color: var(--grey);
+	font-weight: 600;
+}
+
+.joinW {
+	font-family: 'Nunito', sans-serif;
+	background-color: var(--accent);
+	color: #fff;
+	height: 58px;
+	width: 140px;
+	border: none;
+	border-radius: 6px;
+	letter-spacing: 0.4px;
+	font-weight: 600;
+}
+
+.content {
+	margin: 100px 0px;
+	width: 60%;
+	font-family: 'Nunito', sans-serif;
+}
+
+.highlight {
+	font-weight: 300 !important;
+	background-color: var(--accent);
+	padding: 8px 26px;
+	border-radius: 50px;
+	color: white;
+}
+.highlight > a {
+	color: white;
+	text-decoration: underline;
+}
+.headline {
+	margin-top: 34px;
+	margin-bottom: 0px;
+	font-family: 'Nunito', sans-serif;
+	color: #34265f;
+
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 64px;
+}
+form {
+	padding: 14px 12px 12px 0px;
+}
+form > button {
+	margin: 0px 12px;
+}
+#email {
+	height: 54px;
+	width: 58%;
+	border-radius: 6px;
+	border: 2px solid #e6e6e6;
+}
+
+::placeholder {
+	color: #cecece;
+	opacity: 1;
+	padding-left: 6%;
+}
+.para {
+	margin: -14px 0px 0px 0px;
+	width: 100%;
+	font-size: 17px;
+	color: #616363;
+	letter-spacing: 0px;
+	line-height: 26px;
+}
+
+.paracon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logoflex {
+	margin-top: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 40%;
+}
+footer {
+	color: #1e1e1e;
+	display: flex;
+	flex-direction: column;
+}
