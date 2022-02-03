@@ -14,6 +14,11 @@ Well, if you are someone who is starting out with basic Web Dev or someone getti
 
 ### Who am I?  
 I am Debarshi Das, as of writing this, in my pre-final year of my B.Tech from VIT, Chennai.
+<br><br>
+
+### How to navigate this repo?  
+Each challenge is stores in a separte challenge branch. Go to each branch to check them out.
+
 <br><br><br><br> 
   
 
