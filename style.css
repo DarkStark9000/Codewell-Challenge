@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    font-size: 14px;
+    margin: 40px 120px !important;
+}
+
+a{
+    text-decoration: none;
+    color: #383838;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+header{
+    margin: -40px -120px;
+    background-image: url("Assets/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 120px -0px;
+}
+
+.started{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px; 
+    
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #A9ABAB;
+    cursor: pointer;
+    border:none;
+}
+
+.heavy{
+    font-weight: 600;
+    color:#F2F2F2;
+}
+
+.navbar, .navlink{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navlink{ 
+    width: 30%;
+    align-items: center;
+}
+.intro{
+    margin-top: 60px;
+}
+.intro > .bold{
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+}
+
+.intro, .introinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.intro > .introinfo{
+    font-size: 20px;
+    color: #383838;
+    width: 66%;
+    text-align: center;
+    row-gap: 14px;
+}
+
+.intro > img{
+    margin: 100px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.boldmini{
+    font-size: 38px;
+    font-weight: 700;
+    color: #000;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    font-size: 20px;
+}
+.coninfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 56%;
+    row-gap: 14px;
+}
+.content > img{ 
+    width: 460px;
+    height: 460px;
+}
+footer{
+    margin: 80px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
