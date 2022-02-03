@@ -1,22 +1,20 @@
 # Codewell-Challenge
 
 ### What's the purpose of this repo?  
-Here, I have linked and organized my source code, assets, and final result link for all the challenges that I have completed from [Codewell Challenges](https://www.codewell.cc/challenges)
+Here, I have linked and organized my source code, assets, and final result link for all the challenges that I have completed from [Codewell Challenges](https://www.codewell.cc/challenges)<br><br>
 
 ### Why did I do it for?  
-I did these challenges as a part of my [#100DaysOfCode](https://twitter.com/search?q=from%3A%20%40thedebarshidas%20%20%23100DaysOfCode&src=typed_query&f=top).
+I did these challenges as a part of my [#100DaysOfCode](https://twitter.com/search?q=from%3A%20%40thedebarshidas%20%20%23100DaysOfCode&src=typed_query&f=top).<br><br>
 
 ### What did I gain?  
-While doing this, I got a concise refresher on many topics of basic HTML, CSS & JS. I learned quite a few neat tricks and new things like Flexbox and Grids. These challenges helped me to develop single-page applications and a simple website pretty quickly.
+While doing this, I got a concise refresher on many topics of basic HTML, CSS & JS. I learned quite a few neat tricks and new things like Flexbox and Grids. These challenges helped me to develop single-page applications and a simple website pretty quickly.<br><br>
 
 ### How can you benefit from this repo?   
-Well, if you are someone who is starting out with basic Web Dev or someone getting back into web dev and want a quick "learn by doing" practice, you can view the challenges here. You can also take references from my codebase.
+Well, if you are someone who is starting out with basic Web Dev or someone getting back into web dev and want a quick "learn by doing" practice, you can view the challenges here. You can also take references from my codebase.<br><br>
 
 ### Who am I?  
-I am Debarshi Das, as of writing this, in my pre-final year of my B.Tech from VIT, Chennai.  
-  
-  
-  
+I am Debarshi Das, as of writing this, in my pre-final year of my B.Tech from VIT, Chennai.
+<br><br><br><br> 
   
 
 | Icon | Status |
